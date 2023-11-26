@@ -1,0 +1,137 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:firebrick;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor3 div{
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:firebrick;
+}
+
+.titulo{
+    font-size: 50px;
+    color: aqua;
+}
+
+.contenedor{
+    margin-top: 30px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor div{
+    color: wheat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+.titulo-login{
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: -40px;
+}
+
+.contenedor-login{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-login div{
+    text-align: center;
+    color: wheat;
+    font-size: 50px;
+    width: 500px;
+}
+
+form{
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    border:none;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+nav{
+    border: solid 1px black;
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+}
+
+nav ul{
+    width: 200px;
+    position:fixed;
+    padding: 0;
+    top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.sidebar {
+    height: 0;
+    visibility: hidden;
+}
+  
+.sidebar.active {
+   visibility: visible;
+   height: auto;
+}
+
+table{
+    margin: auto;
+}
+
+table thead{
+    color: wheat;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+table tbody{
+    font-size: 25px;
+}
